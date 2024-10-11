@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    cursor: url('./Imgs/cursor.cur'), auto;
+}
+
+header {
+    background-color: #FF69B4;
+    color: #E4EEF1;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vh;
+    font-weight: normal;
+    align-items: center;     
+}
+
+.caixaLogo {    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18vw;   
+}
+
+nav {
+    width: 30%;
+    
+    ul {
+        display: flex;
+        justify-content: space-around;   
+    } 
+    li {
+        cursor: pointer;
+    }  
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD9EC;
+}
+
+.prevencao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 45vh;
+
+    .primeiroTexto {
+        font-size: 2.5vh;
+        width: 24vw;
+    }
+    .imagemPrincipal {
+        height: 40vh;
+    }
+}
+
+.conscientizacao {
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 35vh;
+  
+.imagemSecundaria {
+    height: 30vh;
+  }
+
+.segundoTexto {
+    color: #E4EEF1;
+    font-size: 2.5vh;
+    width: 30vw;
+   }
+}
+
+.sessaoDeCuidados {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 38vh;
+
+    .dicas {
+        height: 30vh;
+    }
+}
+
+footer {
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+
+    .redesSociais {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 10vw;
+    }
+    
+    .icones {
+        height: 4vh;
+        cursor: pointer;
+    }
+    
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        p {
+            font-size: 2vh;
+            color: #E4EEF1;
+        }
+    }
+}
+
+
+
