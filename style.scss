@@ -32,8 +32,10 @@ nav {
         display: flex;
         justify-content: space-around;   
     } 
-    li {
+    li a {
         cursor: pointer;
+        text-decoration: none;
+        color: #E4EEF1;
     }  
 }
 
