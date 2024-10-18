@@ -124,23 +124,24 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header {
         flex-direction: column;
-        font-size: 3vh;
         text-align: center;
     }
 
     .caixaLogo {
-        width: 100%;
-        justify-content: center;
+        height: 29vh;
+        flex-direction: column;
     }
 
     nav {
-        width: 100%;
+        width: 95%;
         ul {
-            flex-direction: column;
-            align-items: center;
+            a {
+                font-size: 22px;
+            }
+            
         }
     }
 
@@ -164,8 +165,7 @@ footer {
     .conscientizacao {
         flex-direction: column;
         height: auto;
-        padding: 20px;
-
+        
         .segundoTexto {
             width: 90%;
             font-size: 3.5vh;
@@ -180,7 +180,6 @@ footer {
     .sessaoDeCuidados {
         flex-direction: column;
         height: auto;
-        padding: 20px;
 
         .dicas {
             height: auto;
@@ -208,9 +207,10 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1160px) {
     header {
-        font-size: 2.5vh;
+        flex-direction: column;
+        font-size: 2vh;
     }
 
     .caixaLogo {
@@ -227,12 +227,14 @@ footer {
     .prevencao, .conscientizacao, .sessaoDeCuidados {
         flex-direction: column;
         height: auto;
+        padding: 20px;
+    
     }
 
     .prevencao .primeiroTexto,
     .conscientizacao .segundoTexto,
     .sessaoDeCuidados .dicas {
-        width: 90%;
+        width: 60%;
         font-size: 2.8vh;
     }
 
